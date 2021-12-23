@@ -1,0 +1,34 @@
+$small: 300px; 
+$bigPhone: 428px;
+$tablet: 768px;
+$medium: 990px;
+
+html,
+body {
+  width: 100vw;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body{
+  overflow-x: hidden;
+}
+
+.row{
+  margin: 0;
+}
+
+h1, h2, h3{
+  font-family: 'Oswald', sans-serif;;
+}
+h1{
+  font-weight: 600;
+}
+h4, h5, p{
+  font-family: 'Lato', sans-serif;
+  line-height: 120%;
+}
+
+a{
+  text-decoration: none;
+}
