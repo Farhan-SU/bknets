@@ -9,7 +9,9 @@ import axios from 'axios';
 function HomePage() {
 
 
-    {/* Tried to create an object and update them together
+    {/* Tried to create an object and update them together but could not figure it out for two days
+      so I just used the stats endpints.
+
   const [rosters, setRoster] = useState({ allPlayers: null, playerStats: null });
 
   useEffect(() => {
